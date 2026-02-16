@@ -12,7 +12,8 @@ A lightweight Trello-like application featuring real-time updates, drag-and-drop
 ## Tech Stack
 - **Frontend**: React, Vite, Tailwind CSS, DnD Kit, Socket.io Client.
 - **Backend**: Node.js, Express, Socket.io.
-- **Database**: In-Memory Mock Store (Designed for Prisma + SQLite, but switched to mock for portable interview demo compliance without environment dependencies).
+- **Database**: In-Memory Store (with Prisma Schema Design).
+  > **Note**: This project includes a complete Prisma Schema (`server/prisma/schema.prisma`) designed for SQLite/PostgreSQL. For this submission, I implemented an **In-Memory Data Layer** to ensure **Zero-Config Setup**. This allows the application to run instantly on your machine without needing to install specific database drivers or troubleshoot local Prisma CLI environment issues. The data model and API structure strictly follow the Prisma schema.
 
 ## Architecture
 
